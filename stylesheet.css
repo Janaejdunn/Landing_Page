@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family:  'Roboto';
     background-color: white;
-    
+    text-align: center;
 }
 
 .container {
@@ -43,6 +43,8 @@ body {
     text-decoration: none;
 }
 
+/* Hero Part */
+
 .main {
     display: flex;
     background-color: #1F2937;
@@ -50,27 +52,30 @@ body {
     align-items: center;
     justify-content: center;
     padding: 90px;
-    
 }
 
-/* Hero Part */
-
 .main-text {
+    flex-basis: 400px;
     display: flex;
     flex-direction: column;
     text-align: left;
-    flex-basis: 400px;
     margin-right: 50px;
+}
+
+.main-text p {
+    font-family: 'Roboto';
+    opacity: 0.7;
 }
 
 h1 {
     font-size: 48px;
     font-weight: extra-bold;
     margin: 0;
+    color: #f9faf8;
     font-family: 'Roboto';
 }
 
-.button {
+.main button {
     display: block;
     text-align: center;
     width: 110px;
@@ -112,4 +117,78 @@ h1 {
     border-radius: 15px;
     object-fit: cover;
 
+}
+
+/* Quote Section */
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 0 200px;
+    flex-direction: column;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto';
+}
+
+.quote b {
+    text-align: right;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: 'Roboto';
+}
+
+/* Sign Up Part */
+
+.sign-up {
+    background-color: #3882f6;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px; 
+    border-color: none;
+}
+
+.signup-item {
+    flex: 1;
+}
+
+.signup-text {
+    text-align: left;
+}
+.signup-text p {
+    padding: 0px;
+    margin: 5px 30px 30px 50px;
+    color: #f9faf8;
+}
+
+h4 {
+    font-family: 'Roboto';
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+    text-align: left;
+    color: #f9faf8
+}
+
+.sign-up button {
+    font-family: 'Roboto';
+    border-radius: 8px;
+    background-color: #3882f6;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-family: 'Roboto';
+    padding: 20px;
 }
